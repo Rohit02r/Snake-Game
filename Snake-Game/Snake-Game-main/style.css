@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: roboto;
+}
+.primary__heading {
+  text-align: center;
+  font-size: 24px;
+  font-weight: medium;
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+body {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+
+#game-board {
+position: absolute;
+top: 16%;
+left: 33%;
+border-radius: 10px;
+ border: 2px solid rgb(0, 255, 242); 
+ 
+  margin-bottom: 24px;
+}
+#socre-card {
+  position: absolute;
+  bottom: 7%;
+  font-size: 32px;
+  font-weight: bold;
+  color: aliceblue;
+}
+.heading{
+  position: absolute;
+  top: 8%;
+  left: 37%;   
+  font-weight: bold;
+  color: aliceblue;
+
+
+}
+.hide {
+  display: none;
+}
+.head{
+  position: absolute;
+  top: 2%;
+  left: 41%;
+  color: aquamarine;
+
+
+}
